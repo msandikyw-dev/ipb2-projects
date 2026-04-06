@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationWebApi", "IPB2.EventRegistrationWebApi\IPB2.EventRegistrationWebApi.csproj", "{8267C74A-2E8A-42BA-8B4B-7C878DC15BEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationWebApi.Database", "IPB2.EventRegistrationWebApi.Database\IPB2.EventRegistrationWebApi.Database.csproj", "{A9B7B3FB-08CF-4F8E-96F7-3D4B1B3E8518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationMinimalApi", "IPB2.EventRegistrationMinimalApi\IPB2.EventRegistrationMinimalApi.csproj", "{7B78BD5E-B9F3-4CC6-B9BA-C6BEE1B96FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationConsole", "IPB2.EventRegistrationConsole\IPB2.EventRegistrationConsole.csproj", "{841188CC-4418-4C26-8B90-494D0C42DEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationWindowForm", "IPB2.EventRegistrationWindowForm\IPB2.EventRegistrationWindowForm.csproj", "{18C8D029-0643-45E9-85C8-4C34B9E128AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistrationMVC", "IPB2.EventRegistrationMVC\IPB2.EventRegistrationMVC.csproj", "{1CA30516-F526-4627-B021-6E847C95763E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistration.Domain", "IPB2.EventRegistration.Domain\IPB2.EventRegistration.Domain.csproj", "{A9BEAD52-591F-4349-ACEC-88D93DCEAC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPB2.EventRegistration.MVCwithHttpClient", "IPB2.EventRegistration.MVCwithHttpClient\IPB2.EventRegistration.MVCwithHttpClient.csproj", "{3915395A-0DBB-4B9D-842D-D44DEB5BAD26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8267C74A-2E8A-42BA-8B4B-7C878DC15BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8267C74A-2E8A-42BA-8B4B-7C878DC15BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8267C74A-2E8A-42BA-8B4B-7C878DC15BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8267C74A-2E8A-42BA-8B4B-7C878DC15BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B7B3FB-08CF-4F8E-96F7-3D4B1B3E8518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B7B3FB-08CF-4F8E-96F7-3D4B1B3E8518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B7B3FB-08CF-4F8E-96F7-3D4B1B3E8518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B7B3FB-08CF-4F8E-96F7-3D4B1B3E8518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B78BD5E-B9F3-4CC6-B9BA-C6BEE1B96FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B78BD5E-B9F3-4CC6-B9BA-C6BEE1B96FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B78BD5E-B9F3-4CC6-B9BA-C6BEE1B96FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B78BD5E-B9F3-4CC6-B9BA-C6BEE1B96FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841188CC-4418-4C26-8B90-494D0C42DEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841188CC-4418-4C26-8B90-494D0C42DEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841188CC-4418-4C26-8B90-494D0C42DEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841188CC-4418-4C26-8B90-494D0C42DEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C8D029-0643-45E9-85C8-4C34B9E128AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C8D029-0643-45E9-85C8-4C34B9E128AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C8D029-0643-45E9-85C8-4C34B9E128AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C8D029-0643-45E9-85C8-4C34B9E128AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA30516-F526-4627-B021-6E847C95763E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA30516-F526-4627-B021-6E847C95763E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA30516-F526-4627-B021-6E847C95763E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA30516-F526-4627-B021-6E847C95763E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BEAD52-591F-4349-ACEC-88D93DCEAC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BEAD52-591F-4349-ACEC-88D93DCEAC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BEAD52-591F-4349-ACEC-88D93DCEAC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BEAD52-591F-4349-ACEC-88D93DCEAC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3915395A-0DBB-4B9D-842D-D44DEB5BAD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3915395A-0DBB-4B9D-842D-D44DEB5BAD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3915395A-0DBB-4B9D-842D-D44DEB5BAD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3915395A-0DBB-4B9D-842D-D44DEB5BAD26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FADC0068-224C-490D-BE17-6909F7BE67DD}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,6 @@ namespace IPB2.OnlineBusSystem.Database.Common
 {
     public static class ConnectionString
     {
-
         public static SqlConnectionStringBuilder connectionString = new SqlConnectionStringBuilder()
         {
             DataSource = ".",
